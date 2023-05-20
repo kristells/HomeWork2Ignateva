@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork_2
 {
-    class Program
+    class Program2
     {
         static int programmingScores = 80;
         static int mathGrades = 75;
