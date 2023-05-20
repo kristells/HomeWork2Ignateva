@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork_2
 {
-    class Program
+    class Program1
     {
         static int programmingScores = 80;
         static int mathGrades = 75;
@@ -19,14 +19,6 @@ namespace HomeWork_2
 
             Console.WriteLine("Имя: " + name + " Возраст: " + age + " Emale: " + emale + " Баллы по программированию: " + 
                 programmingScores + " Баллы по математике: " + mathGrades + " Баллы по физике: " + gradesPhysics);
-            Console.ReadKey();
-            Program.CalculationTotalPoint();
-        }
-        static void CalculationTotalPoint()
-        {
-            int totalPoints = programmingScores + mathGrades + gradesPhysics;
-            int averageScore = totalPoints / 3;
-            Console.WriteLine("Средний балл: " + averageScore);
             Console.ReadKey();
         }
     }
